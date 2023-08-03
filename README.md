@@ -37,6 +37,8 @@ const resizeEvent = useSyncEvent("resize");
 2. The second parameter is an optional object. It has 2 optional fields. In the first field, you can provide a selector function to subscribe to the change of a property only. In the second field, you can provide a ref to an HTMLElement that the listener of this hook will be attached to.
 
 ```js
+const myRef = useRef < HTMLElement > null;
+
 const pointerX = useSyncEvent("pointerdown", {
   selector: (e) => e.clientX,
   ref: myRef,
