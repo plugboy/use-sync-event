@@ -1,0 +1,26 @@
+{
+  "name": "use-sync-event",
+  "version": "0.0.1",
+  "description": "A custom hook that lets you subscribe to a DOM event. You can get the event object or subscribe to the change of a property only. Support smart code-completion to select event name and property easily.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "useSyncExternalStore",
+    "DOM",
+    "event",
+    "subscribe",
+    "property",
+    "react",
+    "typescript"
+  ],
+  "author": "Center Law",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  }
+}
