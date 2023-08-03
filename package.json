@@ -2,7 +2,9 @@
   "name": "use-sync-event",
   "version": "0.0.1",
   "description": "A custom hook that lets you subscribe to a DOM event. You can get the event object or subscribe to the change of a property only. Support smart code-completion to select event name and property easily.",
-  "main": "index.ts",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -22,5 +24,17 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.1.6"
-  }
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plugboy/use-sync-event.git"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
 }
