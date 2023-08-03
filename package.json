@@ -1,6 +1,6 @@
 {
   "name": "use-sync-event",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A custom hook that lets you subscribe to a DOM event. You can get the event object or subscribe to the change of a property only. Support smart code-completion to select event name and property easily.",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
